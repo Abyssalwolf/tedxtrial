@@ -1,1 +1,1 @@
-web: gunicorn tedx.wsgi
+web: gunicorn tedx.wsgi:application --bind 0.0.0.0:$PORT
